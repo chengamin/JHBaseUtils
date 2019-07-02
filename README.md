@@ -4,16 +4,16 @@
 ### 使用方式如下
 ----
 
-#### 全局Gradle
+#### 1. 全局Gradle
 
 ```Gradle
-allprojects {
-	   		repositories {
-				maven { url 'https://jitpack.io' } 
-			}
+	allprojects {
+	   	repositories {
+			maven { url 'https://jitpack.io' } 
 		}
+	}
 ```
-#### Module Gradle
+#### 2. Module Gradle
 ```Gradle
 	dependencies {
 	        implementation 'com.github.chengamin:JhBaseUtils:1.0'
